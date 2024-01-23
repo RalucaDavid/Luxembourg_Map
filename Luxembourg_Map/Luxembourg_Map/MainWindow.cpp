@@ -133,6 +133,9 @@ void MainWindow::OnResetClicked()
 
 void  MainWindow::OnDijkstraClicked()
 {
-    graph.Dijkstra(sourceNode,destinationNode);
-    totalLength->setText("Total length: " + QString::number(graph.GetTotalLength()));
+    if ((sourceNode != nullptr) && (destinationNode != nullptr))
+    {
+        graph.Dijkstra(sourceNode, destinationNode);
+        totalLength->setText("Total length: " + QString::number(graph.GetTotalLength()));
+    }
 }
