@@ -17,7 +17,7 @@ An application made with C++ language and QT Framework that finds the shortest r
   </li>
 </ul>
 
-# Images 
+# Photos
 The appearance of the application before pressing the Dijkstra button:
 ![image](https://github.com/RalucaDavid/Luxembourg_Map/assets/117584603/64bd1f98-9a1c-41ca-8140-f54ba0589747)
 
